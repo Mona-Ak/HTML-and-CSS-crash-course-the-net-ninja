@@ -9,3 +9,8 @@ p.success{
 p.success.feedback{
     border: 1px dashed #4fdb4f;
 }
+
+div#content{
+    background-color: #ebebeb;
+    padding: 20px;
+}
