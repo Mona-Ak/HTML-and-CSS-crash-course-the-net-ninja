@@ -19,18 +19,35 @@ div#content{
     color: red;
 } */
 
+
 /* with adding * we don not need to write the whole addres like https and the end .com */
-a[href*="thenetninja"]{
+/* a[href*="thenetninja"]{
     background-color: #3dd13d;
     color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-}
+} */
 
 /* the $ means any href that ends with .com  */
-a[href$=".com"]{
+/* a[href$=".com"]{
     color: white;
     background: red;
     border: 2px solid blue;
+} */
+
+div{
+    color: lightcoral;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+p{
+    color: orange;
 }
