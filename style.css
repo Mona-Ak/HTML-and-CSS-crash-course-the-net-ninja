@@ -1,4 +1,4 @@
-p.error{
+/* p.error{
     color: red;
 }
 
@@ -13,4 +13,24 @@ p.success.feedback{
 div#content{
     background-color: #ebebeb;
     padding: 20px;
+} */
+
+/* div .error{
+    color: red;
+} */
+
+/* with adding * we don not need to write the whole addres like https and the end .com */
+a[href*="thenetninja"]{
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* the $ means any href that ends with .com  */
+a[href$=".com"]{
+    color: white;
+    background: red;
+    border: 2px solid blue;
 }
