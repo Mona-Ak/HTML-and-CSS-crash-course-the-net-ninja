@@ -118,3 +118,10 @@ footer{
     padding: 10px;
     text-align: center;
 }
+
+/* pseudo classes */
+
+nav li a:hover{
+    text-decoration: underline;
+
+}
